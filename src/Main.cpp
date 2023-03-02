@@ -10,10 +10,10 @@ extern Logger logger;
 
 std::string Color(float input, int a, int b) {
     auto output = std::to_string(input);
-	if (tps < a && tps > b){
+	if (input < a && input > b){
 		return "§6" + output;
 	}
-	if (tps <= n){
+	if (input <= b){
 		return "§c" + output;
 	}
 	else return "§a" + output;
