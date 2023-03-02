@@ -1,6 +1,5 @@
 #include <LoggerAPI.h>
 #include <EventAPI.h>
-#include <RegCommandAPI.h>
 #include <DynamicCommandAPI.h>
 #include "version.h"
 #include "Global.h"
