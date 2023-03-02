@@ -1,3 +1,0 @@
-F:/Plugins/QueryTPS/build/CMakeFiles/QueryTPS.dir
-F:/Plugins/QueryTPS/build/CMakeFiles/ALL_BUILD.dir
-F:/Plugins/QueryTPS/build/CMakeFiles/ZERO_CHECK.dir
