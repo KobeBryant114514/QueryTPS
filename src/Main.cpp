@@ -32,7 +32,7 @@ void RegCommand() {
     });
 }
 
-void PluginInit(){
+void PluginInit() {
 	ExportAPI();
     RegCommand();
 	CaculateTPS();
