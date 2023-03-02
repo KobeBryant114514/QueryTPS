@@ -83,7 +83,7 @@ jobs:
   publish_release:
     name: Publish release
     needs: build
-    runs-on: windows-2022
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -118,5 +118,3 @@ jobs:
             D:/out/plugins/QueryTPS.dll
             D:/out/plugins/QueryTPS.pdb
             D:/out/QueryTPS.zip
-        env:
-          GITHUB_REPOSITORY: Tsubasa6848/QueryTPS
