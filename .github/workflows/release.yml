@@ -104,7 +104,7 @@ jobs:
             D:/out/plugins/QueryTPS.pdb
             D:/out/QueryTPS.zip
         env:
-          GITHUB_REPOSITORY: LiteLDev/LiteLoaderBDS
+          GITHUB_REPOSITORY: Tsubasa6848/QueryTPS
 
       - name: Create pre-release
         if: github.event.inputs.status != 'stable'
@@ -116,3 +116,5 @@ jobs:
             D:/out/plugins/QueryTPS.dll
             D:/out/plugins/QueryTPS.pdb
             D:/out/QueryTPS.zip
+        env:
+          GITHUB_REPOSITORY: Tsubasa6848/QueryTPS
