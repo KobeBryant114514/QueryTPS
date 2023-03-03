@@ -11,7 +11,7 @@ on:
         description: 'Release Status (beta, stable)'
 
 env:
-  BUILD_TYPE: Release
+  BUILD_TYPE: MinSizeRel
 
 jobs:
   build:
