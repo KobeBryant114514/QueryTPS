@@ -99,7 +99,6 @@ jobs:
         with:
           prerelease: false
           tag: ${{ github.event.inputs.tag }}
-          bodyFile: RELEASE_NOTES.md
           artifacts: |
             D:/out/plugins/QueryTPS.dll
             D:/out/plugins/QueryTPS.pdb
@@ -113,7 +112,6 @@ jobs:
         with:
           prerelease: true
           tag: ${{ github.event.inputs.tag }}
-          bodyFile: RELEASE_NOTES.md
           artifacts: |
             D:/out/plugins/QueryTPS.dll
             D:/out/plugins/QueryTPS.pdb
