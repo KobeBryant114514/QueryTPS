@@ -70,4 +70,4 @@ jobs:
         files: |
           D:/out/plugins/QueryTPS.dll
           D:/out/plugins/QueryTPS.pdb
-          D:/out/plugins/QueryTPS.zip
+          D:/out/QueryTPS.zip
